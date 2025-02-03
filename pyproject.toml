@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eeca_python_template"
+version = "0.1.0"
+description = "Template repository for Python projects with pre-configured GitHub Actions for linting and testing."
+authors = [{ name = "EECA", email = "DataAndAnalytics@eeca.govt.nz" }]
+
+[tool.black]
+line-length = 88
+target-version = ['py311']
+
+[tool.isort]
+profile = "black"

@@ -1,0 +1,205 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-wheel-metadata/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Pytype static type analyzer
+.pytype/
+
+# Type checking reports
+typecheck/
+
+# Testing artifacts
+.tox/
+.nox/
+.pytest_cache/
+.cache/
+
+# Virtual environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Eclipse settings
+.project
+.pydevproject
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# SageMath parsed files
+*.sage.py
+
+# Encrypted keys
+*.key
+
+# Secret files (e.g., environment variables)
+.env
+*.env
+
+# MacOS files
+.DS_Store
+
+# Thumbnails
+Thumbs.db
+
+# Python egg files
+*.egg
+*.egg-info/
+.eggs/
+
+# PyInstaller
+*.spec
+
+# Distribution files
+sdist/
+bdist/
+wheelhouse/
+*.egg-info/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Build directories
+build/
+tmp/
+temp/
+cache/
+
+# Cython debug symbols
+cython_debug/
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+
+# Documentation builds
+docs/_build/
+docs/_static/
+docs/_autoapi/
+
+# Sphinx documentation
+doc/build/
+
+# Static files
+static/
+
+# Translations
+*.mo
+*.pot
+
+# Data files
+*.dat
+*.db
+*.sqlite3
+
+# Backup files
+*~
+*.bak
+*.swp
+*.swo
+*.orig
+
+# Profiling data
+.prof
+
+# Other files
+*.manifest
+*.spec
+.mypy_cache/
+.dmypy.json
+.pyre/
+.ipynb_checkpoints
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Exclude package builds
+src/*.egg-info/
+src/*.egg
+build/
+dist/
+
+# Add additional files or directories below
