@@ -26,6 +26,6 @@ jobs:
 
     - name: Run linters
       run: |
-        black --check src/ tests/
-        isort --profile black --check-only src/ tests/
+        black --check ConcessionaryLoansAssessmentTemplate
+        isort --profile black --check-only ConcessionaryLoansAssessmentTemplate
         pylint --disable=R0801 $(git ls-files '*.py')

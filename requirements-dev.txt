@@ -1,6 +1,9 @@
-pytest
-pylint
-black
-isort
-coverage
-pre-commit
+-r requirements.txt
+pytest==8.*
+pylint==3.*
+black==24.*
+isort==5.*
+coverage==7.*
+pre-commit==4.*
+setuptools==75.*
+pip-audit==2.*

@@ -3,9 +3,9 @@ requires = ["setuptools>=61.0.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "eeca_python_template"
+name = "machine_readable_xlsx"
 version = "0.1.0"
-description = "Template repository for Python projects with pre-configured GitHub Actions for linting and testing."
+description = "Guidelines and Python tools for structuring Excel workbooks to reliably extract their data."
 authors = [{ name = "EECA", email = "DataAndAnalytics@eeca.govt.nz" }]
 
 [tool.black]

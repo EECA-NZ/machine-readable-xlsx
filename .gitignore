@@ -203,3 +203,4 @@ build/
 dist/
 
 # Add additional files or directories below
+*.xlsx
