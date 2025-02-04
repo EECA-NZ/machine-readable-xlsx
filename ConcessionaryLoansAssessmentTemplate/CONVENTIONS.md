@@ -29,7 +29,7 @@ At present the user can choose to enter data in either real or nominal terms. Th
 To facilitate this, can we please organize the workbook as follows:
 
 * First convert all dollar values into real terms (if they are not already).
-* Similarly convert all fuel consumption values into standard units (e.g., MWh).
+* Similarly convert all fuel consumption values into standard units (e.g., MJ).
 * Convert each (real terms) “section” (and its sub‑sections) into an Excel Table. This will be the data that is ingested into our data warehouse.
 
 Tables have several advantages:
