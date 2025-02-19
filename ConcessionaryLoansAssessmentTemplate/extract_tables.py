@@ -6,10 +6,13 @@ apply configurable transformation functions, and output the final transformed
 data as CSV files.
 """
 
+import os
 import csv
 import openpyxl
 import pandas as pd
 
+INPUT_DIR = "input"
+OUTPUT_DIR = "output"
 
 def unpivot_table(df, identifier_columns, key_column_name, value_column_name):
     """
@@ -47,7 +50,7 @@ def unpivot_table(df, identifier_columns, key_column_name, value_column_name):
 # Each step is defined as a dictionary with an 'action' (transformation function)
 # and a 'kwargs' dictionary containing its arguments.
 table_transformations = {
-    "OPEX_NonFuel_PP": [
+    "Opex_NonFuel_PP": [
         {
             "action": unpivot_table,
             "kwargs": {
@@ -62,7 +65,7 @@ table_transformations = {
             },
         }
     ],
-    "OPEX_NonFuel_BC": [
+    "Opex_NonFuel_BC": [
         {
             "action": unpivot_table,
             "kwargs": {
@@ -128,13 +131,15 @@ def extract_tables_from_workbook(xlsx_path):
                         kwargs = transform.get("kwargs", {})
                         df = action_func(df, **kwargs)
                     csv_filename = f"{table.name}.csv"
-                    df.to_csv(csv_filename, index=False)
+                    csv_path = os.path.join(OUTPUT_DIR, csv_filename)
+                    df.to_csv(csv_path, index=False)
                     print(
                         f"Transformed table '{table.name}' saved to '{csv_filename}'."
                     )
                 else:
                     csv_filename = f"{table.name}.csv"
-                    with open(csv_filename, "w", newline="", encoding="utf-8") as f:
+                    csv_path = os.path.join(OUTPUT_DIR, csv_filename)
+                    with open(csv_path, "w", newline="", encoding="utf-8") as f:
                         writer = csv.writer(f)
                         writer.writerow(header)
                         writer.writerows(rows)
@@ -143,5 +148,5 @@ def extract_tables_from_workbook(xlsx_path):
 
 
 if __name__ == "__main__":
-    WORKBOOK_PATH = "ConcessionaryLoansAssessmentTemplate.xlsx"
+    WORKBOOK_PATH = os.path.join(INPUT_DIR, "ConcessionaryLoansAssessmentTemplate.xlsx")
     extract_tables_from_workbook(WORKBOOK_PATH)

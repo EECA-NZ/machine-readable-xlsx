@@ -1,0 +1,27 @@
+Field,Value,Notes
+ProjectID,CL-001,
+Applicant's name,Oliver's Meatworks,
+Sector,"Agriculture, Forestry and Fishing",
+Region,Gisborne,
+Name for proposed project,Heat pump gas replacement,
+Date of application submission (dd/mm/yy),2025-02-14 00:00:00,
+First year of expenditure (yyyy),2026,
+Expected commissioning date of proposed project (dd/mm/yy),2027-01-01 00:00:00,
+,,
+Project type,Early replacement of asset,
+Expected final year of operation/use of existing asset if not replaced early,2035,
+"If not a retrofit, what is the expected economic or useful life of the new investment?",20,Final year = 2047
+"Without the loan, what would the existing asset be replaced with at the end of its life?",The same as the the proposed project,
+What would be the expected life of the replacement asset in the base case (no loan),20,Final year = 2047
+,,
+Does the project replace the use of coal for industrial process heat?,No,
+"If this project replaces coal consumption for industrial process heat, does the project bring forward the time of replacement from the start of 2037?",Yes,
+Is this a heat pump project?,Yes,
+,,
+What level of loan contribution are you requesting? ($),950000,
+Start date? (dd/mm/yyyy),2025-12-01 00:00:00,
+How long would the loan be for? (years),10,Full repayment by 2036
+What is your hurdle rate for this investment (%),0.2,
+What basis is used for the hurdle rate?,Pre-tax Nominal,
+Is the hurdle rate for the return on equity only or for the whole invstment,Return on Equity,
+Analysis year,2025,
