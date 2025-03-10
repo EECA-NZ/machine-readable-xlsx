@@ -3,7 +3,6 @@ Example of reading CSV output from the extract_tables.py script
 and converting it into a dictionary using pandas.
 """
 
-
 import pandas as pd
 
 CSV_FILE = "output/ProjectDetails.csv"
