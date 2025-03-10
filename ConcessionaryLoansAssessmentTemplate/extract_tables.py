@@ -6,6 +6,7 @@ apply configurable transformation functions, and output the final transformed
 data as CSV files.
 """
 
+import re
 import os
 import csv
 import openpyxl
@@ -13,8 +14,11 @@ import pandas as pd
 
 INPUT_DIR = "input"
 OUTPUT_DIR = "output"
+FILENAME = "ConcessionaryLoansApplicationTemplatev2_8.xlsx"
+WORKBOOK_PATH = os.path.join(INPUT_DIR, FILENAME)
+YEAR_PATTERN = re.compile(r'^2\d{3}$')  # Matches strings like '2025', '2070', etc.
 
-def unpivot_table(df, identifier_columns, key_column_name, value_column_name):
+def unpivot_table(df, identifier_columns, key_column_name, value_column_name, table_name):
     """
     Unpivots a DataFrame using pandas.melt.
 
@@ -33,8 +37,10 @@ def unpivot_table(df, identifier_columns, key_column_name, value_column_name):
     if set(identifier_cols_existing) != set(identifier_columns):
         missing = set(identifier_columns) - set(identifier_cols_existing)
         raise ValueError(f"Columns {missing} not found in DataFrame.")
-
-    value_columns = [col for col in df.columns if col not in identifier_cols_existing]
+    value_columns = [col for col in df.columns if YEAR_PATTERN.match(col)]
+    extra_columns = [col for col in df.columns if col not in identifier_cols_existing + value_columns]
+    if extra_columns:
+        raise ValueError(f"Unexpected columns found in table {table_name}: {extra_columns}")
     df_melted = pd.melt(
         df,
         id_vars=identifier_cols_existing,
@@ -59,6 +65,10 @@ table_transformations = {
                     "Value basis",
                     "Base year",
                     "Applicant comment",
+                    "ProjectId",
+                    "LifeCycleMonths",
+                    "Scenario",
+                    "ExpenseType"
                 ],
                 "key_column_name": "Year",
                 "value_column_name": "Cost",
@@ -70,9 +80,85 @@ table_transformations = {
             "action": unpivot_table,
             "kwargs": {
                 "identifier_columns": [
+                    "ProjectId",
+                    "LifeCycleMonths",
                     "Opex item",
+                    "Scenario",
                     "Value basis",
                     "Base year",
+                    "Applicant comment",
+                    "ExpenseType"
+                ],
+                "key_column_name": "Year",
+                "value_column_name": "Cost",
+            },
+        }
+    ],
+    "Capex_PP": [
+        {
+            "action": unpivot_table,
+            "kwargs": {
+                "identifier_columns": [
+                    "ProjectId",
+                    "LifeCycleMonths",
+                    "Capex item",
+                    "Scenario",
+                    "Value basis",
+                    "Base year",
+                    "Applicant comment",
+                    "ExpenseType"
+                ],
+                "key_column_name": "Year",
+                "value_column_name": "Cost",
+            },
+        }
+    ],
+    "Capex_BC": [
+        {
+            "action": unpivot_table,
+            "kwargs": {
+                "identifier_columns": [
+                    "ProjectId",
+                    "LifeCycleMonths",
+                    "Capex item",
+                    "Scenario",
+                    "Value basis",
+                    "Base year",
+                    "Applicant comment",
+                    "ExpenseType"
+                ],
+                "key_column_name": "Year",
+                "value_column_name": "Cost",
+            },
+        }
+    ],
+    "FuelUse_PP": [
+        {
+            "action": unpivot_table,
+            "kwargs": {
+                "identifier_columns": [
+                    "ProjectId",
+                    "LifeCycleMonths",
+                    "Scenario",
+                    "Fuel type",
+                    "Units",
+                    "Applicant comment",
+                ],
+                "key_column_name": "Year",
+                "value_column_name": "Cost",
+            },
+        }
+    ],
+    "FuelUse_BC": [
+        {
+            "action": unpivot_table,
+            "kwargs": {
+                "identifier_columns": [
+                    "ProjectId",
+                    "LifeCycleMonths",
+                    "Scenario",
+                    "Fuel type",
+                    "Units",
                     "Applicant comment",
                 ],
                 "key_column_name": "Year",
@@ -129,6 +215,7 @@ def extract_tables_from_workbook(xlsx_path):
                     for transform in table_transformations[table.name]:
                         action_func = transform["action"]
                         kwargs = transform.get("kwargs", {})
+                        kwargs["table_name"] = table.name
                         df = action_func(df, **kwargs)
                     csv_filename = f"{table.name}.csv"
                     csv_path = os.path.join(OUTPUT_DIR, csv_filename)
@@ -148,5 +235,4 @@ def extract_tables_from_workbook(xlsx_path):
 
 
 if __name__ == "__main__":
-    WORKBOOK_PATH = os.path.join(INPUT_DIR, "ConcessionaryLoansAssessmentTemplate.xlsx")
     extract_tables_from_workbook(WORKBOOK_PATH)

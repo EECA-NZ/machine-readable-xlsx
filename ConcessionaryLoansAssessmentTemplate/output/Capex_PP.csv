@@ -1,8 +1,323 @@
-Capex item,Value basis,Base year,Applicant comment,2026,2027,2028,2029,2030,2031,2032,2033,2034,2035,2036,2037,2038,2039,2040,2041,2042,2043,2044,2045,2046,2047,2048,2049,2050,2051,2052,2053,2054,2055,2056,2057,2058,2059,2060,2061,2062,2063,2064,2065,2066,2067,2068,2069,2070
-Equipment purchase,Real,2025,0,783461.1354310506,768023.8559269195,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Civil works,Real,2025,0,78346.11354310505,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Electrical works,Real,2025,0,244831.60482220328,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Installation,Real,2025,0,97932.64192888132,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Indirect costs,Real,2025,0,48966.32096444066,48001.49099543247,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Project management,Real,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Other,Real,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ProjectId,LifeCycleMonths,Capex item,Scenario,Value basis,Base year,Applicant comment,ExpenseType,Year,Cost
+CL-001,36,Equipment purchase,PP,Real,2025,EV,capex,2025,0.0
+CL-001,36,Civil works,PP,Real,2025,Drive,capex,2025,0.0
+CL-001,36,Electrical works,PP,Real,2025,Wiring,capex,2025,0.0
+CL-001,36,Installation,PP,Real,2025,Gate,capex,2025,0.0
+CL-001,36,Indirect costs,PP,Real,2025,,capex,2025,0.0
+CL-001,36,Project management,PP,Real,2025,,capex,2025,0.0
+CL-001,36,Other,PP,Real,2025,,capex,2025,0.0
+CL-001,36,Equipment purchase,PP,Real,2025,EV,capex,2026,42332.94651924516
+CL-001,36,Civil works,PP,Real,2025,Drive,capex,2026,21166.47325962258
+CL-001,36,Electrical works,PP,Real,2025,Wiring,capex,2026,5291.618314905645
+CL-001,36,Installation,PP,Real,2025,Gate,capex,2026,5291.618314905645
+CL-001,36,Indirect costs,PP,Real,2025,,capex,2026,0.0
+CL-001,36,Project management,PP,Real,2025,,capex,2026,0.0
+CL-001,36,Other,PP,Real,2025,,capex,2026,0.0
+CL-001,36,Equipment purchase,PP,Real,2025,EV,capex,2027,0.0
+CL-001,36,Civil works,PP,Real,2025,Drive,capex,2027,0.0
+CL-001,36,Electrical works,PP,Real,2025,Wiring,capex,2027,0.0
+CL-001,36,Installation,PP,Real,2025,Gate,capex,2027,0.0
+CL-001,36,Indirect costs,PP,Real,2025,,capex,2027,0.0
+CL-001,36,Project management,PP,Real,2025,,capex,2027,0.0
+CL-001,36,Other,PP,Real,2025,,capex,2027,0.0
+CL-001,36,Equipment purchase,PP,Real,2025,EV,capex,2028,0.0
+CL-001,36,Civil works,PP,Real,2025,Drive,capex,2028,0.0
+CL-001,36,Electrical works,PP,Real,2025,Wiring,capex,2028,0.0
+CL-001,36,Installation,PP,Real,2025,Gate,capex,2028,0.0
+CL-001,36,Indirect costs,PP,Real,2025,,capex,2028,0.0
+CL-001,36,Project management,PP,Real,2025,,capex,2028,0.0
+CL-001,36,Other,PP,Real,2025,,capex,2028,0.0
+CL-001,36,Equipment purchase,PP,Real,2025,EV,capex,2029,0.0
+CL-001,36,Civil works,PP,Real,2025,Drive,capex,2029,0.0
+CL-001,36,Electrical works,PP,Real,2025,Wiring,capex,2029,0.0
+CL-001,36,Installation,PP,Real,2025,Gate,capex,2029,0.0
+CL-001,36,Indirect costs,PP,Real,2025,,capex,2029,0.0
+CL-001,36,Project management,PP,Real,2025,,capex,2029,0.0
+CL-001,36,Other,PP,Real,2025,,capex,2029,0.0
+CL-001,36,Equipment purchase,PP,Real,2025,EV,capex,2030,0.0
+CL-001,36,Civil works,PP,Real,2025,Drive,capex,2030,0.0
+CL-001,36,Electrical works,PP,Real,2025,Wiring,capex,2030,0.0
+CL-001,36,Installation,PP,Real,2025,Gate,capex,2030,0.0
+CL-001,36,Indirect costs,PP,Real,2025,,capex,2030,0.0
+CL-001,36,Project management,PP,Real,2025,,capex,2030,0.0
+CL-001,36,Other,PP,Real,2025,,capex,2030,0.0
+CL-001,36,Equipment purchase,PP,Real,2025,EV,capex,2031,0.0
+CL-001,36,Civil works,PP,Real,2025,Drive,capex,2031,0.0
+CL-001,36,Electrical works,PP,Real,2025,Wiring,capex,2031,0.0
+CL-001,36,Installation,PP,Real,2025,Gate,capex,2031,0.0
+CL-001,36,Indirect costs,PP,Real,2025,,capex,2031,0.0
+CL-001,36,Project management,PP,Real,2025,,capex,2031,0.0
+CL-001,36,Other,PP,Real,2025,,capex,2031,0.0
+CL-001,36,Equipment purchase,PP,Real,2025,EV,capex,2032,0.0
+CL-001,36,Civil works,PP,Real,2025,Drive,capex,2032,0.0
+CL-001,36,Electrical works,PP,Real,2025,Wiring,capex,2032,0.0
+CL-001,36,Installation,PP,Real,2025,Gate,capex,2032,0.0
+CL-001,36,Indirect costs,PP,Real,2025,,capex,2032,0.0
+CL-001,36,Project management,PP,Real,2025,,capex,2032,0.0
+CL-001,36,Other,PP,Real,2025,,capex,2032,0.0
+CL-001,36,Equipment purchase,PP,Real,2025,EV,capex,2033,0.0
+CL-001,36,Civil works,PP,Real,2025,Drive,capex,2033,0.0
+CL-001,36,Electrical works,PP,Real,2025,Wiring,capex,2033,0.0
+CL-001,36,Installation,PP,Real,2025,Gate,capex,2033,0.0
+CL-001,36,Indirect costs,PP,Real,2025,,capex,2033,0.0
+CL-001,36,Project management,PP,Real,2025,,capex,2033,0.0
+CL-001,36,Other,PP,Real,2025,,capex,2033,0.0
+CL-001,36,Equipment purchase,PP,Real,2025,EV,capex,2034,0.0
+CL-001,36,Civil works,PP,Real,2025,Drive,capex,2034,0.0
+CL-001,36,Electrical works,PP,Real,2025,Wiring,capex,2034,0.0
+CL-001,36,Installation,PP,Real,2025,Gate,capex,2034,0.0
+CL-001,36,Indirect costs,PP,Real,2025,,capex,2034,0.0
+CL-001,36,Project management,PP,Real,2025,,capex,2034,0.0
+CL-001,36,Other,PP,Real,2025,,capex,2034,0.0
+CL-001,36,Equipment purchase,PP,Real,2025,EV,capex,2035,0.0
+CL-001,36,Civil works,PP,Real,2025,Drive,capex,2035,0.0
+CL-001,36,Electrical works,PP,Real,2025,Wiring,capex,2035,0.0
+CL-001,36,Installation,PP,Real,2025,Gate,capex,2035,0.0
+CL-001,36,Indirect costs,PP,Real,2025,,capex,2035,0.0
+CL-001,36,Project management,PP,Real,2025,,capex,2035,0.0
+CL-001,36,Other,PP,Real,2025,,capex,2035,0.0
+CL-001,36,Equipment purchase,PP,Real,2025,EV,capex,2036,0.0
+CL-001,36,Civil works,PP,Real,2025,Drive,capex,2036,0.0
+CL-001,36,Electrical works,PP,Real,2025,Wiring,capex,2036,0.0
+CL-001,36,Installation,PP,Real,2025,Gate,capex,2036,0.0
+CL-001,36,Indirect costs,PP,Real,2025,,capex,2036,0.0
+CL-001,36,Project management,PP,Real,2025,,capex,2036,0.0
+CL-001,36,Other,PP,Real,2025,,capex,2036,0.0
+CL-001,36,Equipment purchase,PP,Real,2025,EV,capex,2037,0.0
+CL-001,36,Civil works,PP,Real,2025,Drive,capex,2037,0.0
+CL-001,36,Electrical works,PP,Real,2025,Wiring,capex,2037,0.0
+CL-001,36,Installation,PP,Real,2025,Gate,capex,2037,0.0
+CL-001,36,Indirect costs,PP,Real,2025,,capex,2037,0.0
+CL-001,36,Project management,PP,Real,2025,,capex,2037,0.0
+CL-001,36,Other,PP,Real,2025,,capex,2037,0.0
+CL-001,36,Equipment purchase,PP,Real,2025,EV,capex,2038,0.0
+CL-001,36,Civil works,PP,Real,2025,Drive,capex,2038,0.0
+CL-001,36,Electrical works,PP,Real,2025,Wiring,capex,2038,0.0
+CL-001,36,Installation,PP,Real,2025,Gate,capex,2038,0.0
+CL-001,36,Indirect costs,PP,Real,2025,,capex,2038,0.0
+CL-001,36,Project management,PP,Real,2025,,capex,2038,0.0
+CL-001,36,Other,PP,Real,2025,,capex,2038,0.0
+CL-001,36,Equipment purchase,PP,Real,2025,EV,capex,2039,0.0
+CL-001,36,Civil works,PP,Real,2025,Drive,capex,2039,0.0
+CL-001,36,Electrical works,PP,Real,2025,Wiring,capex,2039,0.0
+CL-001,36,Installation,PP,Real,2025,Gate,capex,2039,0.0
+CL-001,36,Indirect costs,PP,Real,2025,,capex,2039,0.0
+CL-001,36,Project management,PP,Real,2025,,capex,2039,0.0
+CL-001,36,Other,PP,Real,2025,,capex,2039,0.0
+CL-001,36,Equipment purchase,PP,Real,2025,EV,capex,2040,0.0
+CL-001,36,Civil works,PP,Real,2025,Drive,capex,2040,0.0
+CL-001,36,Electrical works,PP,Real,2025,Wiring,capex,2040,0.0
+CL-001,36,Installation,PP,Real,2025,Gate,capex,2040,0.0
+CL-001,36,Indirect costs,PP,Real,2025,,capex,2040,0.0
+CL-001,36,Project management,PP,Real,2025,,capex,2040,0.0
+CL-001,36,Other,PP,Real,2025,,capex,2040,0.0
+CL-001,36,Equipment purchase,PP,Real,2025,EV,capex,2041,0.0
+CL-001,36,Civil works,PP,Real,2025,Drive,capex,2041,0.0
+CL-001,36,Electrical works,PP,Real,2025,Wiring,capex,2041,0.0
+CL-001,36,Installation,PP,Real,2025,Gate,capex,2041,0.0
+CL-001,36,Indirect costs,PP,Real,2025,,capex,2041,0.0
+CL-001,36,Project management,PP,Real,2025,,capex,2041,0.0
+CL-001,36,Other,PP,Real,2025,,capex,2041,0.0
+CL-001,36,Equipment purchase,PP,Real,2025,EV,capex,2042,0.0
+CL-001,36,Civil works,PP,Real,2025,Drive,capex,2042,0.0
+CL-001,36,Electrical works,PP,Real,2025,Wiring,capex,2042,0.0
+CL-001,36,Installation,PP,Real,2025,Gate,capex,2042,0.0
+CL-001,36,Indirect costs,PP,Real,2025,,capex,2042,0.0
+CL-001,36,Project management,PP,Real,2025,,capex,2042,0.0
+CL-001,36,Other,PP,Real,2025,,capex,2042,0.0
+CL-001,36,Equipment purchase,PP,Real,2025,EV,capex,2043,0.0
+CL-001,36,Civil works,PP,Real,2025,Drive,capex,2043,0.0
+CL-001,36,Electrical works,PP,Real,2025,Wiring,capex,2043,0.0
+CL-001,36,Installation,PP,Real,2025,Gate,capex,2043,0.0
+CL-001,36,Indirect costs,PP,Real,2025,,capex,2043,0.0
+CL-001,36,Project management,PP,Real,2025,,capex,2043,0.0
+CL-001,36,Other,PP,Real,2025,,capex,2043,0.0
+CL-001,36,Equipment purchase,PP,Real,2025,EV,capex,2044,0.0
+CL-001,36,Civil works,PP,Real,2025,Drive,capex,2044,0.0
+CL-001,36,Electrical works,PP,Real,2025,Wiring,capex,2044,0.0
+CL-001,36,Installation,PP,Real,2025,Gate,capex,2044,0.0
+CL-001,36,Indirect costs,PP,Real,2025,,capex,2044,0.0
+CL-001,36,Project management,PP,Real,2025,,capex,2044,0.0
+CL-001,36,Other,PP,Real,2025,,capex,2044,0.0
+CL-001,36,Equipment purchase,PP,Real,2025,EV,capex,2045,0.0
+CL-001,36,Civil works,PP,Real,2025,Drive,capex,2045,0.0
+CL-001,36,Electrical works,PP,Real,2025,Wiring,capex,2045,0.0
+CL-001,36,Installation,PP,Real,2025,Gate,capex,2045,0.0
+CL-001,36,Indirect costs,PP,Real,2025,,capex,2045,0.0
+CL-001,36,Project management,PP,Real,2025,,capex,2045,0.0
+CL-001,36,Other,PP,Real,2025,,capex,2045,0.0
+CL-001,36,Equipment purchase,PP,Real,2025,EV,capex,2046,0.0
+CL-001,36,Civil works,PP,Real,2025,Drive,capex,2046,0.0
+CL-001,36,Electrical works,PP,Real,2025,Wiring,capex,2046,0.0
+CL-001,36,Installation,PP,Real,2025,Gate,capex,2046,0.0
+CL-001,36,Indirect costs,PP,Real,2025,,capex,2046,0.0
+CL-001,36,Project management,PP,Real,2025,,capex,2046,0.0
+CL-001,36,Other,PP,Real,2025,,capex,2046,0.0
+CL-001,36,Equipment purchase,PP,Real,2025,EV,capex,2047,0.0
+CL-001,36,Civil works,PP,Real,2025,Drive,capex,2047,0.0
+CL-001,36,Electrical works,PP,Real,2025,Wiring,capex,2047,0.0
+CL-001,36,Installation,PP,Real,2025,Gate,capex,2047,0.0
+CL-001,36,Indirect costs,PP,Real,2025,,capex,2047,0.0
+CL-001,36,Project management,PP,Real,2025,,capex,2047,0.0
+CL-001,36,Other,PP,Real,2025,,capex,2047,0.0
+CL-001,36,Equipment purchase,PP,Real,2025,EV,capex,2048,0.0
+CL-001,36,Civil works,PP,Real,2025,Drive,capex,2048,0.0
+CL-001,36,Electrical works,PP,Real,2025,Wiring,capex,2048,0.0
+CL-001,36,Installation,PP,Real,2025,Gate,capex,2048,0.0
+CL-001,36,Indirect costs,PP,Real,2025,,capex,2048,0.0
+CL-001,36,Project management,PP,Real,2025,,capex,2048,0.0
+CL-001,36,Other,PP,Real,2025,,capex,2048,0.0
+CL-001,36,Equipment purchase,PP,Real,2025,EV,capex,2049,0.0
+CL-001,36,Civil works,PP,Real,2025,Drive,capex,2049,0.0
+CL-001,36,Electrical works,PP,Real,2025,Wiring,capex,2049,0.0
+CL-001,36,Installation,PP,Real,2025,Gate,capex,2049,0.0
+CL-001,36,Indirect costs,PP,Real,2025,,capex,2049,0.0
+CL-001,36,Project management,PP,Real,2025,,capex,2049,0.0
+CL-001,36,Other,PP,Real,2025,,capex,2049,0.0
+CL-001,36,Equipment purchase,PP,Real,2025,EV,capex,2050,0.0
+CL-001,36,Civil works,PP,Real,2025,Drive,capex,2050,0.0
+CL-001,36,Electrical works,PP,Real,2025,Wiring,capex,2050,0.0
+CL-001,36,Installation,PP,Real,2025,Gate,capex,2050,0.0
+CL-001,36,Indirect costs,PP,Real,2025,,capex,2050,0.0
+CL-001,36,Project management,PP,Real,2025,,capex,2050,0.0
+CL-001,36,Other,PP,Real,2025,,capex,2050,0.0
+CL-001,36,Equipment purchase,PP,Real,2025,EV,capex,2051,0.0
+CL-001,36,Civil works,PP,Real,2025,Drive,capex,2051,0.0
+CL-001,36,Electrical works,PP,Real,2025,Wiring,capex,2051,0.0
+CL-001,36,Installation,PP,Real,2025,Gate,capex,2051,0.0
+CL-001,36,Indirect costs,PP,Real,2025,,capex,2051,0.0
+CL-001,36,Project management,PP,Real,2025,,capex,2051,0.0
+CL-001,36,Other,PP,Real,2025,,capex,2051,0.0
+CL-001,36,Equipment purchase,PP,Real,2025,EV,capex,2052,0.0
+CL-001,36,Civil works,PP,Real,2025,Drive,capex,2052,0.0
+CL-001,36,Electrical works,PP,Real,2025,Wiring,capex,2052,0.0
+CL-001,36,Installation,PP,Real,2025,Gate,capex,2052,0.0
+CL-001,36,Indirect costs,PP,Real,2025,,capex,2052,0.0
+CL-001,36,Project management,PP,Real,2025,,capex,2052,0.0
+CL-001,36,Other,PP,Real,2025,,capex,2052,0.0
+CL-001,36,Equipment purchase,PP,Real,2025,EV,capex,2053,0.0
+CL-001,36,Civil works,PP,Real,2025,Drive,capex,2053,0.0
+CL-001,36,Electrical works,PP,Real,2025,Wiring,capex,2053,0.0
+CL-001,36,Installation,PP,Real,2025,Gate,capex,2053,0.0
+CL-001,36,Indirect costs,PP,Real,2025,,capex,2053,0.0
+CL-001,36,Project management,PP,Real,2025,,capex,2053,0.0
+CL-001,36,Other,PP,Real,2025,,capex,2053,0.0
+CL-001,36,Equipment purchase,PP,Real,2025,EV,capex,2054,0.0
+CL-001,36,Civil works,PP,Real,2025,Drive,capex,2054,0.0
+CL-001,36,Electrical works,PP,Real,2025,Wiring,capex,2054,0.0
+CL-001,36,Installation,PP,Real,2025,Gate,capex,2054,0.0
+CL-001,36,Indirect costs,PP,Real,2025,,capex,2054,0.0
+CL-001,36,Project management,PP,Real,2025,,capex,2054,0.0
+CL-001,36,Other,PP,Real,2025,,capex,2054,0.0
+CL-001,36,Equipment purchase,PP,Real,2025,EV,capex,2055,0.0
+CL-001,36,Civil works,PP,Real,2025,Drive,capex,2055,0.0
+CL-001,36,Electrical works,PP,Real,2025,Wiring,capex,2055,0.0
+CL-001,36,Installation,PP,Real,2025,Gate,capex,2055,0.0
+CL-001,36,Indirect costs,PP,Real,2025,,capex,2055,0.0
+CL-001,36,Project management,PP,Real,2025,,capex,2055,0.0
+CL-001,36,Other,PP,Real,2025,,capex,2055,0.0
+CL-001,36,Equipment purchase,PP,Real,2025,EV,capex,2056,0.0
+CL-001,36,Civil works,PP,Real,2025,Drive,capex,2056,0.0
+CL-001,36,Electrical works,PP,Real,2025,Wiring,capex,2056,0.0
+CL-001,36,Installation,PP,Real,2025,Gate,capex,2056,0.0
+CL-001,36,Indirect costs,PP,Real,2025,,capex,2056,0.0
+CL-001,36,Project management,PP,Real,2025,,capex,2056,0.0
+CL-001,36,Other,PP,Real,2025,,capex,2056,0.0
+CL-001,36,Equipment purchase,PP,Real,2025,EV,capex,2057,0.0
+CL-001,36,Civil works,PP,Real,2025,Drive,capex,2057,0.0
+CL-001,36,Electrical works,PP,Real,2025,Wiring,capex,2057,0.0
+CL-001,36,Installation,PP,Real,2025,Gate,capex,2057,0.0
+CL-001,36,Indirect costs,PP,Real,2025,,capex,2057,0.0
+CL-001,36,Project management,PP,Real,2025,,capex,2057,0.0
+CL-001,36,Other,PP,Real,2025,,capex,2057,0.0
+CL-001,36,Equipment purchase,PP,Real,2025,EV,capex,2058,0.0
+CL-001,36,Civil works,PP,Real,2025,Drive,capex,2058,0.0
+CL-001,36,Electrical works,PP,Real,2025,Wiring,capex,2058,0.0
+CL-001,36,Installation,PP,Real,2025,Gate,capex,2058,0.0
+CL-001,36,Indirect costs,PP,Real,2025,,capex,2058,0.0
+CL-001,36,Project management,PP,Real,2025,,capex,2058,0.0
+CL-001,36,Other,PP,Real,2025,,capex,2058,0.0
+CL-001,36,Equipment purchase,PP,Real,2025,EV,capex,2059,0.0
+CL-001,36,Civil works,PP,Real,2025,Drive,capex,2059,0.0
+CL-001,36,Electrical works,PP,Real,2025,Wiring,capex,2059,0.0
+CL-001,36,Installation,PP,Real,2025,Gate,capex,2059,0.0
+CL-001,36,Indirect costs,PP,Real,2025,,capex,2059,0.0
+CL-001,36,Project management,PP,Real,2025,,capex,2059,0.0
+CL-001,36,Other,PP,Real,2025,,capex,2059,0.0
+CL-001,36,Equipment purchase,PP,Real,2025,EV,capex,2060,0.0
+CL-001,36,Civil works,PP,Real,2025,Drive,capex,2060,0.0
+CL-001,36,Electrical works,PP,Real,2025,Wiring,capex,2060,0.0
+CL-001,36,Installation,PP,Real,2025,Gate,capex,2060,0.0
+CL-001,36,Indirect costs,PP,Real,2025,,capex,2060,0.0
+CL-001,36,Project management,PP,Real,2025,,capex,2060,0.0
+CL-001,36,Other,PP,Real,2025,,capex,2060,0.0
+CL-001,36,Equipment purchase,PP,Real,2025,EV,capex,2061,0.0
+CL-001,36,Civil works,PP,Real,2025,Drive,capex,2061,0.0
+CL-001,36,Electrical works,PP,Real,2025,Wiring,capex,2061,0.0
+CL-001,36,Installation,PP,Real,2025,Gate,capex,2061,0.0
+CL-001,36,Indirect costs,PP,Real,2025,,capex,2061,0.0
+CL-001,36,Project management,PP,Real,2025,,capex,2061,0.0
+CL-001,36,Other,PP,Real,2025,,capex,2061,0.0
+CL-001,36,Equipment purchase,PP,Real,2025,EV,capex,2062,0.0
+CL-001,36,Civil works,PP,Real,2025,Drive,capex,2062,0.0
+CL-001,36,Electrical works,PP,Real,2025,Wiring,capex,2062,0.0
+CL-001,36,Installation,PP,Real,2025,Gate,capex,2062,0.0
+CL-001,36,Indirect costs,PP,Real,2025,,capex,2062,0.0
+CL-001,36,Project management,PP,Real,2025,,capex,2062,0.0
+CL-001,36,Other,PP,Real,2025,,capex,2062,0.0
+CL-001,36,Equipment purchase,PP,Real,2025,EV,capex,2063,0.0
+CL-001,36,Civil works,PP,Real,2025,Drive,capex,2063,0.0
+CL-001,36,Electrical works,PP,Real,2025,Wiring,capex,2063,0.0
+CL-001,36,Installation,PP,Real,2025,Gate,capex,2063,0.0
+CL-001,36,Indirect costs,PP,Real,2025,,capex,2063,0.0
+CL-001,36,Project management,PP,Real,2025,,capex,2063,0.0
+CL-001,36,Other,PP,Real,2025,,capex,2063,0.0
+CL-001,36,Equipment purchase,PP,Real,2025,EV,capex,2064,0.0
+CL-001,36,Civil works,PP,Real,2025,Drive,capex,2064,0.0
+CL-001,36,Electrical works,PP,Real,2025,Wiring,capex,2064,0.0
+CL-001,36,Installation,PP,Real,2025,Gate,capex,2064,0.0
+CL-001,36,Indirect costs,PP,Real,2025,,capex,2064,0.0
+CL-001,36,Project management,PP,Real,2025,,capex,2064,0.0
+CL-001,36,Other,PP,Real,2025,,capex,2064,0.0
+CL-001,36,Equipment purchase,PP,Real,2025,EV,capex,2065,0.0
+CL-001,36,Civil works,PP,Real,2025,Drive,capex,2065,0.0
+CL-001,36,Electrical works,PP,Real,2025,Wiring,capex,2065,0.0
+CL-001,36,Installation,PP,Real,2025,Gate,capex,2065,0.0
+CL-001,36,Indirect costs,PP,Real,2025,,capex,2065,0.0
+CL-001,36,Project management,PP,Real,2025,,capex,2065,0.0
+CL-001,36,Other,PP,Real,2025,,capex,2065,0.0
+CL-001,36,Equipment purchase,PP,Real,2025,EV,capex,2066,0.0
+CL-001,36,Civil works,PP,Real,2025,Drive,capex,2066,0.0
+CL-001,36,Electrical works,PP,Real,2025,Wiring,capex,2066,0.0
+CL-001,36,Installation,PP,Real,2025,Gate,capex,2066,0.0
+CL-001,36,Indirect costs,PP,Real,2025,,capex,2066,0.0
+CL-001,36,Project management,PP,Real,2025,,capex,2066,0.0
+CL-001,36,Other,PP,Real,2025,,capex,2066,0.0
+CL-001,36,Equipment purchase,PP,Real,2025,EV,capex,2067,0.0
+CL-001,36,Civil works,PP,Real,2025,Drive,capex,2067,0.0
+CL-001,36,Electrical works,PP,Real,2025,Wiring,capex,2067,0.0
+CL-001,36,Installation,PP,Real,2025,Gate,capex,2067,0.0
+CL-001,36,Indirect costs,PP,Real,2025,,capex,2067,0.0
+CL-001,36,Project management,PP,Real,2025,,capex,2067,0.0
+CL-001,36,Other,PP,Real,2025,,capex,2067,0.0
+CL-001,36,Equipment purchase,PP,Real,2025,EV,capex,2068,0.0
+CL-001,36,Civil works,PP,Real,2025,Drive,capex,2068,0.0
+CL-001,36,Electrical works,PP,Real,2025,Wiring,capex,2068,0.0
+CL-001,36,Installation,PP,Real,2025,Gate,capex,2068,0.0
+CL-001,36,Indirect costs,PP,Real,2025,,capex,2068,0.0
+CL-001,36,Project management,PP,Real,2025,,capex,2068,0.0
+CL-001,36,Other,PP,Real,2025,,capex,2068,0.0
+CL-001,36,Equipment purchase,PP,Real,2025,EV,capex,2069,0.0
+CL-001,36,Civil works,PP,Real,2025,Drive,capex,2069,0.0
+CL-001,36,Electrical works,PP,Real,2025,Wiring,capex,2069,0.0
+CL-001,36,Installation,PP,Real,2025,Gate,capex,2069,0.0
+CL-001,36,Indirect costs,PP,Real,2025,,capex,2069,0.0
+CL-001,36,Project management,PP,Real,2025,,capex,2069,0.0
+CL-001,36,Other,PP,Real,2025,,capex,2069,0.0
+CL-001,36,Equipment purchase,PP,Real,2025,EV,capex,2070,0.0
+CL-001,36,Civil works,PP,Real,2025,Drive,capex,2070,0.0
+CL-001,36,Electrical works,PP,Real,2025,Wiring,capex,2070,0.0
+CL-001,36,Installation,PP,Real,2025,Gate,capex,2070,0.0
+CL-001,36,Indirect costs,PP,Real,2025,,capex,2070,0.0
+CL-001,36,Project management,PP,Real,2025,,capex,2070,0.0
+CL-001,36,Other,PP,Real,2025,,capex,2070,0.0

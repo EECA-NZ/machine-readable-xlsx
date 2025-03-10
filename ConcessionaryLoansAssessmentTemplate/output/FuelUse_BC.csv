@@ -1,12 +1,507 @@
-Fuel type,Units,Applicant comment,2026,2027,2028,2029,2030,2031,2032,2033,2034,2035,2036,2037,2038,2039,2040,2041,2042,2043,2044,2045,2046,2047,2048,2049,2050,2051,2052,2053,2054,2055,2056,2057,2058,2059,2060,2061,2062,2063,2064,2065,2066,2067,2068,2069,2070
-Electricity,GJ,0,432,432,432,432,432,432,432,432,432,432,432,432,432,432,432,432,432,432,432,432,432,432,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Natural Gas,GJ,0,70000,70000,70000,70000,70000,70000,70000,70000,70000,70000,70000,70000,70000,70000,70000,70000,70000,70000,70000,70000,70000,70000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Coal - sub bituminous,GJ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Coal - bituminous,GJ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Coal - lignite,GJ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Diesel,GJ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-LPG,GJ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Light fuel oil,GJ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Heavy fuel oil,GJ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Geothermal,GJ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Wood or wood chips,GJ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ProjectId,LifeCycleMonths,Scenario,Fuel type,Units,Applicant comment,Year,Cost
+CL-001,36,BC,Electricity,GJ,,2025,0
+CL-001,36,BC,Natural Gas,GJ,,2025,0
+CL-001,36,BC,Coal - sub bituminous,GJ,,2025,0
+CL-001,36,BC,Coal - bituminous,GJ,,2025,0
+CL-001,36,BC,Coal - lignite,GJ,,2025,0
+CL-001,36,BC,Diesel,GJ,,2025,35700
+CL-001,36,BC,LPG,GJ,,2025,0
+CL-001,36,BC,Light fuel oil,GJ,,2025,0
+CL-001,36,BC,Heavy fuel oil,GJ,,2025,0
+CL-001,36,BC,Geothermal,GJ,,2025,0
+CL-001,36,BC,Wood or wood chips,GJ,,2025,0
+CL-001,36,BC,Electricity,GJ,,2026,0
+CL-001,36,BC,Natural Gas,GJ,,2026,0
+CL-001,36,BC,Coal - sub bituminous,GJ,,2026,0
+CL-001,36,BC,Coal - bituminous,GJ,,2026,0
+CL-001,36,BC,Coal - lignite,GJ,,2026,0
+CL-001,36,BC,Diesel,GJ,,2026,35700
+CL-001,36,BC,LPG,GJ,,2026,0
+CL-001,36,BC,Light fuel oil,GJ,,2026,0
+CL-001,36,BC,Heavy fuel oil,GJ,,2026,0
+CL-001,36,BC,Geothermal,GJ,,2026,0
+CL-001,36,BC,Wood or wood chips,GJ,,2026,0
+CL-001,36,BC,Electricity,GJ,,2027,0
+CL-001,36,BC,Natural Gas,GJ,,2027,0
+CL-001,36,BC,Coal - sub bituminous,GJ,,2027,0
+CL-001,36,BC,Coal - bituminous,GJ,,2027,0
+CL-001,36,BC,Coal - lignite,GJ,,2027,0
+CL-001,36,BC,Diesel,GJ,,2027,35700
+CL-001,36,BC,LPG,GJ,,2027,0
+CL-001,36,BC,Light fuel oil,GJ,,2027,0
+CL-001,36,BC,Heavy fuel oil,GJ,,2027,0
+CL-001,36,BC,Geothermal,GJ,,2027,0
+CL-001,36,BC,Wood or wood chips,GJ,,2027,0
+CL-001,36,BC,Electricity,GJ,,2028,0
+CL-001,36,BC,Natural Gas,GJ,,2028,0
+CL-001,36,BC,Coal - sub bituminous,GJ,,2028,0
+CL-001,36,BC,Coal - bituminous,GJ,,2028,0
+CL-001,36,BC,Coal - lignite,GJ,,2028,0
+CL-001,36,BC,Diesel,GJ,,2028,35700
+CL-001,36,BC,LPG,GJ,,2028,0
+CL-001,36,BC,Light fuel oil,GJ,,2028,0
+CL-001,36,BC,Heavy fuel oil,GJ,,2028,0
+CL-001,36,BC,Geothermal,GJ,,2028,0
+CL-001,36,BC,Wood or wood chips,GJ,,2028,0
+CL-001,36,BC,Electricity,GJ,,2029,0
+CL-001,36,BC,Natural Gas,GJ,,2029,0
+CL-001,36,BC,Coal - sub bituminous,GJ,,2029,0
+CL-001,36,BC,Coal - bituminous,GJ,,2029,0
+CL-001,36,BC,Coal - lignite,GJ,,2029,0
+CL-001,36,BC,Diesel,GJ,,2029,35700
+CL-001,36,BC,LPG,GJ,,2029,0
+CL-001,36,BC,Light fuel oil,GJ,,2029,0
+CL-001,36,BC,Heavy fuel oil,GJ,,2029,0
+CL-001,36,BC,Geothermal,GJ,,2029,0
+CL-001,36,BC,Wood or wood chips,GJ,,2029,0
+CL-001,36,BC,Electricity,GJ,,2030,0
+CL-001,36,BC,Natural Gas,GJ,,2030,0
+CL-001,36,BC,Coal - sub bituminous,GJ,,2030,0
+CL-001,36,BC,Coal - bituminous,GJ,,2030,0
+CL-001,36,BC,Coal - lignite,GJ,,2030,0
+CL-001,36,BC,Diesel,GJ,,2030,35700
+CL-001,36,BC,LPG,GJ,,2030,0
+CL-001,36,BC,Light fuel oil,GJ,,2030,0
+CL-001,36,BC,Heavy fuel oil,GJ,,2030,0
+CL-001,36,BC,Geothermal,GJ,,2030,0
+CL-001,36,BC,Wood or wood chips,GJ,,2030,0
+CL-001,36,BC,Electricity,GJ,,2031,0
+CL-001,36,BC,Natural Gas,GJ,,2031,0
+CL-001,36,BC,Coal - sub bituminous,GJ,,2031,0
+CL-001,36,BC,Coal - bituminous,GJ,,2031,0
+CL-001,36,BC,Coal - lignite,GJ,,2031,0
+CL-001,36,BC,Diesel,GJ,,2031,35700
+CL-001,36,BC,LPG,GJ,,2031,0
+CL-001,36,BC,Light fuel oil,GJ,,2031,0
+CL-001,36,BC,Heavy fuel oil,GJ,,2031,0
+CL-001,36,BC,Geothermal,GJ,,2031,0
+CL-001,36,BC,Wood or wood chips,GJ,,2031,0
+CL-001,36,BC,Electricity,GJ,,2032,0
+CL-001,36,BC,Natural Gas,GJ,,2032,0
+CL-001,36,BC,Coal - sub bituminous,GJ,,2032,0
+CL-001,36,BC,Coal - bituminous,GJ,,2032,0
+CL-001,36,BC,Coal - lignite,GJ,,2032,0
+CL-001,36,BC,Diesel,GJ,,2032,35700
+CL-001,36,BC,LPG,GJ,,2032,0
+CL-001,36,BC,Light fuel oil,GJ,,2032,0
+CL-001,36,BC,Heavy fuel oil,GJ,,2032,0
+CL-001,36,BC,Geothermal,GJ,,2032,0
+CL-001,36,BC,Wood or wood chips,GJ,,2032,0
+CL-001,36,BC,Electricity,GJ,,2033,0
+CL-001,36,BC,Natural Gas,GJ,,2033,0
+CL-001,36,BC,Coal - sub bituminous,GJ,,2033,0
+CL-001,36,BC,Coal - bituminous,GJ,,2033,0
+CL-001,36,BC,Coal - lignite,GJ,,2033,0
+CL-001,36,BC,Diesel,GJ,,2033,35700
+CL-001,36,BC,LPG,GJ,,2033,0
+CL-001,36,BC,Light fuel oil,GJ,,2033,0
+CL-001,36,BC,Heavy fuel oil,GJ,,2033,0
+CL-001,36,BC,Geothermal,GJ,,2033,0
+CL-001,36,BC,Wood or wood chips,GJ,,2033,0
+CL-001,36,BC,Electricity,GJ,,2034,0
+CL-001,36,BC,Natural Gas,GJ,,2034,0
+CL-001,36,BC,Coal - sub bituminous,GJ,,2034,0
+CL-001,36,BC,Coal - bituminous,GJ,,2034,0
+CL-001,36,BC,Coal - lignite,GJ,,2034,0
+CL-001,36,BC,Diesel,GJ,,2034,0
+CL-001,36,BC,LPG,GJ,,2034,0
+CL-001,36,BC,Light fuel oil,GJ,,2034,0
+CL-001,36,BC,Heavy fuel oil,GJ,,2034,0
+CL-001,36,BC,Geothermal,GJ,,2034,0
+CL-001,36,BC,Wood or wood chips,GJ,,2034,0
+CL-001,36,BC,Electricity,GJ,,2035,0
+CL-001,36,BC,Natural Gas,GJ,,2035,0
+CL-001,36,BC,Coal - sub bituminous,GJ,,2035,0
+CL-001,36,BC,Coal - bituminous,GJ,,2035,0
+CL-001,36,BC,Coal - lignite,GJ,,2035,0
+CL-001,36,BC,Diesel,GJ,,2035,0
+CL-001,36,BC,LPG,GJ,,2035,0
+CL-001,36,BC,Light fuel oil,GJ,,2035,0
+CL-001,36,BC,Heavy fuel oil,GJ,,2035,0
+CL-001,36,BC,Geothermal,GJ,,2035,0
+CL-001,36,BC,Wood or wood chips,GJ,,2035,0
+CL-001,36,BC,Electricity,GJ,,2036,0
+CL-001,36,BC,Natural Gas,GJ,,2036,0
+CL-001,36,BC,Coal - sub bituminous,GJ,,2036,0
+CL-001,36,BC,Coal - bituminous,GJ,,2036,0
+CL-001,36,BC,Coal - lignite,GJ,,2036,0
+CL-001,36,BC,Diesel,GJ,,2036,0
+CL-001,36,BC,LPG,GJ,,2036,0
+CL-001,36,BC,Light fuel oil,GJ,,2036,0
+CL-001,36,BC,Heavy fuel oil,GJ,,2036,0
+CL-001,36,BC,Geothermal,GJ,,2036,0
+CL-001,36,BC,Wood or wood chips,GJ,,2036,0
+CL-001,36,BC,Electricity,GJ,,2037,0
+CL-001,36,BC,Natural Gas,GJ,,2037,0
+CL-001,36,BC,Coal - sub bituminous,GJ,,2037,0
+CL-001,36,BC,Coal - bituminous,GJ,,2037,0
+CL-001,36,BC,Coal - lignite,GJ,,2037,0
+CL-001,36,BC,Diesel,GJ,,2037,0
+CL-001,36,BC,LPG,GJ,,2037,0
+CL-001,36,BC,Light fuel oil,GJ,,2037,0
+CL-001,36,BC,Heavy fuel oil,GJ,,2037,0
+CL-001,36,BC,Geothermal,GJ,,2037,0
+CL-001,36,BC,Wood or wood chips,GJ,,2037,0
+CL-001,36,BC,Electricity,GJ,,2038,0
+CL-001,36,BC,Natural Gas,GJ,,2038,0
+CL-001,36,BC,Coal - sub bituminous,GJ,,2038,0
+CL-001,36,BC,Coal - bituminous,GJ,,2038,0
+CL-001,36,BC,Coal - lignite,GJ,,2038,0
+CL-001,36,BC,Diesel,GJ,,2038,0
+CL-001,36,BC,LPG,GJ,,2038,0
+CL-001,36,BC,Light fuel oil,GJ,,2038,0
+CL-001,36,BC,Heavy fuel oil,GJ,,2038,0
+CL-001,36,BC,Geothermal,GJ,,2038,0
+CL-001,36,BC,Wood or wood chips,GJ,,2038,0
+CL-001,36,BC,Electricity,GJ,,2039,0
+CL-001,36,BC,Natural Gas,GJ,,2039,0
+CL-001,36,BC,Coal - sub bituminous,GJ,,2039,0
+CL-001,36,BC,Coal - bituminous,GJ,,2039,0
+CL-001,36,BC,Coal - lignite,GJ,,2039,0
+CL-001,36,BC,Diesel,GJ,,2039,0
+CL-001,36,BC,LPG,GJ,,2039,0
+CL-001,36,BC,Light fuel oil,GJ,,2039,0
+CL-001,36,BC,Heavy fuel oil,GJ,,2039,0
+CL-001,36,BC,Geothermal,GJ,,2039,0
+CL-001,36,BC,Wood or wood chips,GJ,,2039,0
+CL-001,36,BC,Electricity,GJ,,2040,0
+CL-001,36,BC,Natural Gas,GJ,,2040,0
+CL-001,36,BC,Coal - sub bituminous,GJ,,2040,0
+CL-001,36,BC,Coal - bituminous,GJ,,2040,0
+CL-001,36,BC,Coal - lignite,GJ,,2040,0
+CL-001,36,BC,Diesel,GJ,,2040,0
+CL-001,36,BC,LPG,GJ,,2040,0
+CL-001,36,BC,Light fuel oil,GJ,,2040,0
+CL-001,36,BC,Heavy fuel oil,GJ,,2040,0
+CL-001,36,BC,Geothermal,GJ,,2040,0
+CL-001,36,BC,Wood or wood chips,GJ,,2040,0
+CL-001,36,BC,Electricity,GJ,,2041,0
+CL-001,36,BC,Natural Gas,GJ,,2041,0
+CL-001,36,BC,Coal - sub bituminous,GJ,,2041,0
+CL-001,36,BC,Coal - bituminous,GJ,,2041,0
+CL-001,36,BC,Coal - lignite,GJ,,2041,0
+CL-001,36,BC,Diesel,GJ,,2041,0
+CL-001,36,BC,LPG,GJ,,2041,0
+CL-001,36,BC,Light fuel oil,GJ,,2041,0
+CL-001,36,BC,Heavy fuel oil,GJ,,2041,0
+CL-001,36,BC,Geothermal,GJ,,2041,0
+CL-001,36,BC,Wood or wood chips,GJ,,2041,0
+CL-001,36,BC,Electricity,GJ,,2042,0
+CL-001,36,BC,Natural Gas,GJ,,2042,0
+CL-001,36,BC,Coal - sub bituminous,GJ,,2042,0
+CL-001,36,BC,Coal - bituminous,GJ,,2042,0
+CL-001,36,BC,Coal - lignite,GJ,,2042,0
+CL-001,36,BC,Diesel,GJ,,2042,0
+CL-001,36,BC,LPG,GJ,,2042,0
+CL-001,36,BC,Light fuel oil,GJ,,2042,0
+CL-001,36,BC,Heavy fuel oil,GJ,,2042,0
+CL-001,36,BC,Geothermal,GJ,,2042,0
+CL-001,36,BC,Wood or wood chips,GJ,,2042,0
+CL-001,36,BC,Electricity,GJ,,2043,0
+CL-001,36,BC,Natural Gas,GJ,,2043,0
+CL-001,36,BC,Coal - sub bituminous,GJ,,2043,0
+CL-001,36,BC,Coal - bituminous,GJ,,2043,0
+CL-001,36,BC,Coal - lignite,GJ,,2043,0
+CL-001,36,BC,Diesel,GJ,,2043,0
+CL-001,36,BC,LPG,GJ,,2043,0
+CL-001,36,BC,Light fuel oil,GJ,,2043,0
+CL-001,36,BC,Heavy fuel oil,GJ,,2043,0
+CL-001,36,BC,Geothermal,GJ,,2043,0
+CL-001,36,BC,Wood or wood chips,GJ,,2043,0
+CL-001,36,BC,Electricity,GJ,,2044,0
+CL-001,36,BC,Natural Gas,GJ,,2044,0
+CL-001,36,BC,Coal - sub bituminous,GJ,,2044,0
+CL-001,36,BC,Coal - bituminous,GJ,,2044,0
+CL-001,36,BC,Coal - lignite,GJ,,2044,0
+CL-001,36,BC,Diesel,GJ,,2044,0
+CL-001,36,BC,LPG,GJ,,2044,0
+CL-001,36,BC,Light fuel oil,GJ,,2044,0
+CL-001,36,BC,Heavy fuel oil,GJ,,2044,0
+CL-001,36,BC,Geothermal,GJ,,2044,0
+CL-001,36,BC,Wood or wood chips,GJ,,2044,0
+CL-001,36,BC,Electricity,GJ,,2045,0
+CL-001,36,BC,Natural Gas,GJ,,2045,0
+CL-001,36,BC,Coal - sub bituminous,GJ,,2045,0
+CL-001,36,BC,Coal - bituminous,GJ,,2045,0
+CL-001,36,BC,Coal - lignite,GJ,,2045,0
+CL-001,36,BC,Diesel,GJ,,2045,0
+CL-001,36,BC,LPG,GJ,,2045,0
+CL-001,36,BC,Light fuel oil,GJ,,2045,0
+CL-001,36,BC,Heavy fuel oil,GJ,,2045,0
+CL-001,36,BC,Geothermal,GJ,,2045,0
+CL-001,36,BC,Wood or wood chips,GJ,,2045,0
+CL-001,36,BC,Electricity,GJ,,2046,0
+CL-001,36,BC,Natural Gas,GJ,,2046,0
+CL-001,36,BC,Coal - sub bituminous,GJ,,2046,0
+CL-001,36,BC,Coal - bituminous,GJ,,2046,0
+CL-001,36,BC,Coal - lignite,GJ,,2046,0
+CL-001,36,BC,Diesel,GJ,,2046,0
+CL-001,36,BC,LPG,GJ,,2046,0
+CL-001,36,BC,Light fuel oil,GJ,,2046,0
+CL-001,36,BC,Heavy fuel oil,GJ,,2046,0
+CL-001,36,BC,Geothermal,GJ,,2046,0
+CL-001,36,BC,Wood or wood chips,GJ,,2046,0
+CL-001,36,BC,Electricity,GJ,,2047,0
+CL-001,36,BC,Natural Gas,GJ,,2047,0
+CL-001,36,BC,Coal - sub bituminous,GJ,,2047,0
+CL-001,36,BC,Coal - bituminous,GJ,,2047,0
+CL-001,36,BC,Coal - lignite,GJ,,2047,0
+CL-001,36,BC,Diesel,GJ,,2047,0
+CL-001,36,BC,LPG,GJ,,2047,0
+CL-001,36,BC,Light fuel oil,GJ,,2047,0
+CL-001,36,BC,Heavy fuel oil,GJ,,2047,0
+CL-001,36,BC,Geothermal,GJ,,2047,0
+CL-001,36,BC,Wood or wood chips,GJ,,2047,0
+CL-001,36,BC,Electricity,GJ,,2048,0
+CL-001,36,BC,Natural Gas,GJ,,2048,0
+CL-001,36,BC,Coal - sub bituminous,GJ,,2048,0
+CL-001,36,BC,Coal - bituminous,GJ,,2048,0
+CL-001,36,BC,Coal - lignite,GJ,,2048,0
+CL-001,36,BC,Diesel,GJ,,2048,0
+CL-001,36,BC,LPG,GJ,,2048,0
+CL-001,36,BC,Light fuel oil,GJ,,2048,0
+CL-001,36,BC,Heavy fuel oil,GJ,,2048,0
+CL-001,36,BC,Geothermal,GJ,,2048,0
+CL-001,36,BC,Wood or wood chips,GJ,,2048,0
+CL-001,36,BC,Electricity,GJ,,2049,0
+CL-001,36,BC,Natural Gas,GJ,,2049,0
+CL-001,36,BC,Coal - sub bituminous,GJ,,2049,0
+CL-001,36,BC,Coal - bituminous,GJ,,2049,0
+CL-001,36,BC,Coal - lignite,GJ,,2049,0
+CL-001,36,BC,Diesel,GJ,,2049,0
+CL-001,36,BC,LPG,GJ,,2049,0
+CL-001,36,BC,Light fuel oil,GJ,,2049,0
+CL-001,36,BC,Heavy fuel oil,GJ,,2049,0
+CL-001,36,BC,Geothermal,GJ,,2049,0
+CL-001,36,BC,Wood or wood chips,GJ,,2049,0
+CL-001,36,BC,Electricity,GJ,,2050,0
+CL-001,36,BC,Natural Gas,GJ,,2050,0
+CL-001,36,BC,Coal - sub bituminous,GJ,,2050,0
+CL-001,36,BC,Coal - bituminous,GJ,,2050,0
+CL-001,36,BC,Coal - lignite,GJ,,2050,0
+CL-001,36,BC,Diesel,GJ,,2050,0
+CL-001,36,BC,LPG,GJ,,2050,0
+CL-001,36,BC,Light fuel oil,GJ,,2050,0
+CL-001,36,BC,Heavy fuel oil,GJ,,2050,0
+CL-001,36,BC,Geothermal,GJ,,2050,0
+CL-001,36,BC,Wood or wood chips,GJ,,2050,0
+CL-001,36,BC,Electricity,GJ,,2051,0
+CL-001,36,BC,Natural Gas,GJ,,2051,0
+CL-001,36,BC,Coal - sub bituminous,GJ,,2051,0
+CL-001,36,BC,Coal - bituminous,GJ,,2051,0
+CL-001,36,BC,Coal - lignite,GJ,,2051,0
+CL-001,36,BC,Diesel,GJ,,2051,0
+CL-001,36,BC,LPG,GJ,,2051,0
+CL-001,36,BC,Light fuel oil,GJ,,2051,0
+CL-001,36,BC,Heavy fuel oil,GJ,,2051,0
+CL-001,36,BC,Geothermal,GJ,,2051,0
+CL-001,36,BC,Wood or wood chips,GJ,,2051,0
+CL-001,36,BC,Electricity,GJ,,2052,0
+CL-001,36,BC,Natural Gas,GJ,,2052,0
+CL-001,36,BC,Coal - sub bituminous,GJ,,2052,0
+CL-001,36,BC,Coal - bituminous,GJ,,2052,0
+CL-001,36,BC,Coal - lignite,GJ,,2052,0
+CL-001,36,BC,Diesel,GJ,,2052,0
+CL-001,36,BC,LPG,GJ,,2052,0
+CL-001,36,BC,Light fuel oil,GJ,,2052,0
+CL-001,36,BC,Heavy fuel oil,GJ,,2052,0
+CL-001,36,BC,Geothermal,GJ,,2052,0
+CL-001,36,BC,Wood or wood chips,GJ,,2052,0
+CL-001,36,BC,Electricity,GJ,,2053,0
+CL-001,36,BC,Natural Gas,GJ,,2053,0
+CL-001,36,BC,Coal - sub bituminous,GJ,,2053,0
+CL-001,36,BC,Coal - bituminous,GJ,,2053,0
+CL-001,36,BC,Coal - lignite,GJ,,2053,0
+CL-001,36,BC,Diesel,GJ,,2053,0
+CL-001,36,BC,LPG,GJ,,2053,0
+CL-001,36,BC,Light fuel oil,GJ,,2053,0
+CL-001,36,BC,Heavy fuel oil,GJ,,2053,0
+CL-001,36,BC,Geothermal,GJ,,2053,0
+CL-001,36,BC,Wood or wood chips,GJ,,2053,0
+CL-001,36,BC,Electricity,GJ,,2054,0
+CL-001,36,BC,Natural Gas,GJ,,2054,0
+CL-001,36,BC,Coal - sub bituminous,GJ,,2054,0
+CL-001,36,BC,Coal - bituminous,GJ,,2054,0
+CL-001,36,BC,Coal - lignite,GJ,,2054,0
+CL-001,36,BC,Diesel,GJ,,2054,0
+CL-001,36,BC,LPG,GJ,,2054,0
+CL-001,36,BC,Light fuel oil,GJ,,2054,0
+CL-001,36,BC,Heavy fuel oil,GJ,,2054,0
+CL-001,36,BC,Geothermal,GJ,,2054,0
+CL-001,36,BC,Wood or wood chips,GJ,,2054,0
+CL-001,36,BC,Electricity,GJ,,2055,0
+CL-001,36,BC,Natural Gas,GJ,,2055,0
+CL-001,36,BC,Coal - sub bituminous,GJ,,2055,0
+CL-001,36,BC,Coal - bituminous,GJ,,2055,0
+CL-001,36,BC,Coal - lignite,GJ,,2055,0
+CL-001,36,BC,Diesel,GJ,,2055,0
+CL-001,36,BC,LPG,GJ,,2055,0
+CL-001,36,BC,Light fuel oil,GJ,,2055,0
+CL-001,36,BC,Heavy fuel oil,GJ,,2055,0
+CL-001,36,BC,Geothermal,GJ,,2055,0
+CL-001,36,BC,Wood or wood chips,GJ,,2055,0
+CL-001,36,BC,Electricity,GJ,,2056,0
+CL-001,36,BC,Natural Gas,GJ,,2056,0
+CL-001,36,BC,Coal - sub bituminous,GJ,,2056,0
+CL-001,36,BC,Coal - bituminous,GJ,,2056,0
+CL-001,36,BC,Coal - lignite,GJ,,2056,0
+CL-001,36,BC,Diesel,GJ,,2056,0
+CL-001,36,BC,LPG,GJ,,2056,0
+CL-001,36,BC,Light fuel oil,GJ,,2056,0
+CL-001,36,BC,Heavy fuel oil,GJ,,2056,0
+CL-001,36,BC,Geothermal,GJ,,2056,0
+CL-001,36,BC,Wood or wood chips,GJ,,2056,0
+CL-001,36,BC,Electricity,GJ,,2057,0
+CL-001,36,BC,Natural Gas,GJ,,2057,0
+CL-001,36,BC,Coal - sub bituminous,GJ,,2057,0
+CL-001,36,BC,Coal - bituminous,GJ,,2057,0
+CL-001,36,BC,Coal - lignite,GJ,,2057,0
+CL-001,36,BC,Diesel,GJ,,2057,0
+CL-001,36,BC,LPG,GJ,,2057,0
+CL-001,36,BC,Light fuel oil,GJ,,2057,0
+CL-001,36,BC,Heavy fuel oil,GJ,,2057,0
+CL-001,36,BC,Geothermal,GJ,,2057,0
+CL-001,36,BC,Wood or wood chips,GJ,,2057,0
+CL-001,36,BC,Electricity,GJ,,2058,0
+CL-001,36,BC,Natural Gas,GJ,,2058,0
+CL-001,36,BC,Coal - sub bituminous,GJ,,2058,0
+CL-001,36,BC,Coal - bituminous,GJ,,2058,0
+CL-001,36,BC,Coal - lignite,GJ,,2058,0
+CL-001,36,BC,Diesel,GJ,,2058,0
+CL-001,36,BC,LPG,GJ,,2058,0
+CL-001,36,BC,Light fuel oil,GJ,,2058,0
+CL-001,36,BC,Heavy fuel oil,GJ,,2058,0
+CL-001,36,BC,Geothermal,GJ,,2058,0
+CL-001,36,BC,Wood or wood chips,GJ,,2058,0
+CL-001,36,BC,Electricity,GJ,,2059,0
+CL-001,36,BC,Natural Gas,GJ,,2059,0
+CL-001,36,BC,Coal - sub bituminous,GJ,,2059,0
+CL-001,36,BC,Coal - bituminous,GJ,,2059,0
+CL-001,36,BC,Coal - lignite,GJ,,2059,0
+CL-001,36,BC,Diesel,GJ,,2059,0
+CL-001,36,BC,LPG,GJ,,2059,0
+CL-001,36,BC,Light fuel oil,GJ,,2059,0
+CL-001,36,BC,Heavy fuel oil,GJ,,2059,0
+CL-001,36,BC,Geothermal,GJ,,2059,0
+CL-001,36,BC,Wood or wood chips,GJ,,2059,0
+CL-001,36,BC,Electricity,GJ,,2060,0
+CL-001,36,BC,Natural Gas,GJ,,2060,0
+CL-001,36,BC,Coal - sub bituminous,GJ,,2060,0
+CL-001,36,BC,Coal - bituminous,GJ,,2060,0
+CL-001,36,BC,Coal - lignite,GJ,,2060,0
+CL-001,36,BC,Diesel,GJ,,2060,0
+CL-001,36,BC,LPG,GJ,,2060,0
+CL-001,36,BC,Light fuel oil,GJ,,2060,0
+CL-001,36,BC,Heavy fuel oil,GJ,,2060,0
+CL-001,36,BC,Geothermal,GJ,,2060,0
+CL-001,36,BC,Wood or wood chips,GJ,,2060,0
+CL-001,36,BC,Electricity,GJ,,2061,0
+CL-001,36,BC,Natural Gas,GJ,,2061,0
+CL-001,36,BC,Coal - sub bituminous,GJ,,2061,0
+CL-001,36,BC,Coal - bituminous,GJ,,2061,0
+CL-001,36,BC,Coal - lignite,GJ,,2061,0
+CL-001,36,BC,Diesel,GJ,,2061,0
+CL-001,36,BC,LPG,GJ,,2061,0
+CL-001,36,BC,Light fuel oil,GJ,,2061,0
+CL-001,36,BC,Heavy fuel oil,GJ,,2061,0
+CL-001,36,BC,Geothermal,GJ,,2061,0
+CL-001,36,BC,Wood or wood chips,GJ,,2061,0
+CL-001,36,BC,Electricity,GJ,,2062,0
+CL-001,36,BC,Natural Gas,GJ,,2062,0
+CL-001,36,BC,Coal - sub bituminous,GJ,,2062,0
+CL-001,36,BC,Coal - bituminous,GJ,,2062,0
+CL-001,36,BC,Coal - lignite,GJ,,2062,0
+CL-001,36,BC,Diesel,GJ,,2062,0
+CL-001,36,BC,LPG,GJ,,2062,0
+CL-001,36,BC,Light fuel oil,GJ,,2062,0
+CL-001,36,BC,Heavy fuel oil,GJ,,2062,0
+CL-001,36,BC,Geothermal,GJ,,2062,0
+CL-001,36,BC,Wood or wood chips,GJ,,2062,0
+CL-001,36,BC,Electricity,GJ,,2063,0
+CL-001,36,BC,Natural Gas,GJ,,2063,0
+CL-001,36,BC,Coal - sub bituminous,GJ,,2063,0
+CL-001,36,BC,Coal - bituminous,GJ,,2063,0
+CL-001,36,BC,Coal - lignite,GJ,,2063,0
+CL-001,36,BC,Diesel,GJ,,2063,0
+CL-001,36,BC,LPG,GJ,,2063,0
+CL-001,36,BC,Light fuel oil,GJ,,2063,0
+CL-001,36,BC,Heavy fuel oil,GJ,,2063,0
+CL-001,36,BC,Geothermal,GJ,,2063,0
+CL-001,36,BC,Wood or wood chips,GJ,,2063,0
+CL-001,36,BC,Electricity,GJ,,2064,0
+CL-001,36,BC,Natural Gas,GJ,,2064,0
+CL-001,36,BC,Coal - sub bituminous,GJ,,2064,0
+CL-001,36,BC,Coal - bituminous,GJ,,2064,0
+CL-001,36,BC,Coal - lignite,GJ,,2064,0
+CL-001,36,BC,Diesel,GJ,,2064,0
+CL-001,36,BC,LPG,GJ,,2064,0
+CL-001,36,BC,Light fuel oil,GJ,,2064,0
+CL-001,36,BC,Heavy fuel oil,GJ,,2064,0
+CL-001,36,BC,Geothermal,GJ,,2064,0
+CL-001,36,BC,Wood or wood chips,GJ,,2064,0
+CL-001,36,BC,Electricity,GJ,,2065,0
+CL-001,36,BC,Natural Gas,GJ,,2065,0
+CL-001,36,BC,Coal - sub bituminous,GJ,,2065,0
+CL-001,36,BC,Coal - bituminous,GJ,,2065,0
+CL-001,36,BC,Coal - lignite,GJ,,2065,0
+CL-001,36,BC,Diesel,GJ,,2065,0
+CL-001,36,BC,LPG,GJ,,2065,0
+CL-001,36,BC,Light fuel oil,GJ,,2065,0
+CL-001,36,BC,Heavy fuel oil,GJ,,2065,0
+CL-001,36,BC,Geothermal,GJ,,2065,0
+CL-001,36,BC,Wood or wood chips,GJ,,2065,0
+CL-001,36,BC,Electricity,GJ,,2066,0
+CL-001,36,BC,Natural Gas,GJ,,2066,0
+CL-001,36,BC,Coal - sub bituminous,GJ,,2066,0
+CL-001,36,BC,Coal - bituminous,GJ,,2066,0
+CL-001,36,BC,Coal - lignite,GJ,,2066,0
+CL-001,36,BC,Diesel,GJ,,2066,0
+CL-001,36,BC,LPG,GJ,,2066,0
+CL-001,36,BC,Light fuel oil,GJ,,2066,0
+CL-001,36,BC,Heavy fuel oil,GJ,,2066,0
+CL-001,36,BC,Geothermal,GJ,,2066,0
+CL-001,36,BC,Wood or wood chips,GJ,,2066,0
+CL-001,36,BC,Electricity,GJ,,2067,0
+CL-001,36,BC,Natural Gas,GJ,,2067,0
+CL-001,36,BC,Coal - sub bituminous,GJ,,2067,0
+CL-001,36,BC,Coal - bituminous,GJ,,2067,0
+CL-001,36,BC,Coal - lignite,GJ,,2067,0
+CL-001,36,BC,Diesel,GJ,,2067,0
+CL-001,36,BC,LPG,GJ,,2067,0
+CL-001,36,BC,Light fuel oil,GJ,,2067,0
+CL-001,36,BC,Heavy fuel oil,GJ,,2067,0
+CL-001,36,BC,Geothermal,GJ,,2067,0
+CL-001,36,BC,Wood or wood chips,GJ,,2067,0
+CL-001,36,BC,Electricity,GJ,,2068,0
+CL-001,36,BC,Natural Gas,GJ,,2068,0
+CL-001,36,BC,Coal - sub bituminous,GJ,,2068,0
+CL-001,36,BC,Coal - bituminous,GJ,,2068,0
+CL-001,36,BC,Coal - lignite,GJ,,2068,0
+CL-001,36,BC,Diesel,GJ,,2068,0
+CL-001,36,BC,LPG,GJ,,2068,0
+CL-001,36,BC,Light fuel oil,GJ,,2068,0
+CL-001,36,BC,Heavy fuel oil,GJ,,2068,0
+CL-001,36,BC,Geothermal,GJ,,2068,0
+CL-001,36,BC,Wood or wood chips,GJ,,2068,0
+CL-001,36,BC,Electricity,GJ,,2069,0
+CL-001,36,BC,Natural Gas,GJ,,2069,0
+CL-001,36,BC,Coal - sub bituminous,GJ,,2069,0
+CL-001,36,BC,Coal - bituminous,GJ,,2069,0
+CL-001,36,BC,Coal - lignite,GJ,,2069,0
+CL-001,36,BC,Diesel,GJ,,2069,0
+CL-001,36,BC,LPG,GJ,,2069,0
+CL-001,36,BC,Light fuel oil,GJ,,2069,0
+CL-001,36,BC,Heavy fuel oil,GJ,,2069,0
+CL-001,36,BC,Geothermal,GJ,,2069,0
+CL-001,36,BC,Wood or wood chips,GJ,,2069,0
+CL-001,36,BC,Electricity,GJ,,2070,0
+CL-001,36,BC,Natural Gas,GJ,,2070,0
+CL-001,36,BC,Coal - sub bituminous,GJ,,2070,0
+CL-001,36,BC,Coal - bituminous,GJ,,2070,0
+CL-001,36,BC,Coal - lignite,GJ,,2070,0
+CL-001,36,BC,Diesel,GJ,,2070,0
+CL-001,36,BC,LPG,GJ,,2070,0
+CL-001,36,BC,Light fuel oil,GJ,,2070,0
+CL-001,36,BC,Heavy fuel oil,GJ,,2070,0
+CL-001,36,BC,Geothermal,GJ,,2070,0
+CL-001,36,BC,Wood or wood chips,GJ,,2070,0
