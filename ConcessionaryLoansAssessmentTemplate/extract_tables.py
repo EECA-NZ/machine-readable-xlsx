@@ -6,9 +6,10 @@ apply configurable transformation functions, and output the final transformed
 data as CSV files.
 """
 
-import re
-import os
 import csv
+import os
+import re
+
 import openpyxl
 import pandas as pd
 
@@ -16,9 +17,12 @@ INPUT_DIR = "input"
 OUTPUT_DIR = "output"
 FILENAME = "ConcessionaryLoansApplicationTemplatev2_8.xlsx"
 WORKBOOK_PATH = os.path.join(INPUT_DIR, FILENAME)
-YEAR_PATTERN = re.compile(r'^2\d{3}$')  # Matches strings like '2025', '2070', etc.
+YEAR_PATTERN = re.compile(r"^2\d{3}$")  # Matches strings like '2025', '2070', etc.
 
-def unpivot_table(df, identifier_columns, key_column_name, value_column_name, table_name):
+
+def unpivot_table(
+    df, identifier_columns, key_column_name, value_column_name, table_name
+):
     """
     Unpivots a DataFrame using pandas.melt.
 
@@ -38,9 +42,13 @@ def unpivot_table(df, identifier_columns, key_column_name, value_column_name, ta
         missing = set(identifier_columns) - set(identifier_cols_existing)
         raise ValueError(f"Columns {missing} not found in DataFrame.")
     value_columns = [col for col in df.columns if YEAR_PATTERN.match(col)]
-    extra_columns = [col for col in df.columns if col not in identifier_cols_existing + value_columns]
+    extra_columns = [
+        col for col in df.columns if col not in identifier_cols_existing + value_columns
+    ]
     if extra_columns:
-        raise ValueError(f"Unexpected columns found in table {table_name}: {extra_columns}")
+        raise ValueError(
+            f"Unexpected columns found in table {table_name}: {extra_columns}"
+        )
     df_melted = pd.melt(
         df,
         id_vars=identifier_cols_existing,
@@ -68,7 +76,7 @@ table_transformations = {
                     "ProjectId",
                     "LifeCycleMonths",
                     "Scenario",
-                    "ExpenseType"
+                    "ExpenseType",
                 ],
                 "key_column_name": "Year",
                 "value_column_name": "Cost",
@@ -87,7 +95,7 @@ table_transformations = {
                     "Value basis",
                     "Base year",
                     "Applicant comment",
-                    "ExpenseType"
+                    "ExpenseType",
                 ],
                 "key_column_name": "Year",
                 "value_column_name": "Cost",
@@ -106,7 +114,7 @@ table_transformations = {
                     "Value basis",
                     "Base year",
                     "Applicant comment",
-                    "ExpenseType"
+                    "ExpenseType",
                 ],
                 "key_column_name": "Year",
                 "value_column_name": "Cost",
@@ -125,7 +133,7 @@ table_transformations = {
                     "Value basis",
                     "Base year",
                     "Applicant comment",
-                    "ExpenseType"
+                    "ExpenseType",
                 ],
                 "key_column_name": "Year",
                 "value_column_name": "Cost",
